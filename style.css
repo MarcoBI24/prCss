@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+body{
+    background: linear-gradient(140deg, black, rgb(7, 78, 136)) no-repeat fixed ;
+    display: flex;
+    justify-content: center;
+}
+.grid-conteiner{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px auto auto auto;
+    gap: 20px;
+    background-color: transparent;
+}
+/* INICIO DE CONTEINER 1 */
+.conteiner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 4vh;
+    border-radius: 20px;
+    grid-column: 1 / 4;
+    background-color: transparent;
+}
+                                    /* fin de conteiner 1 */
+/* INICIO DEL CONTEINER 2 */
+.conteiner2{
+    grid-column: 1 / 4;
+    border-radius: 20px;
+    color: aliceblue;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border: 1px white solid
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+ul li:hover{
+
+    background-color: rgb(23, 140, 218);
+    border-radius: 6px;
+
+}
+                            /* fin del conteiner 2 */
+/* INICIO DEL CONTEINER 3 */
+.conteiner3{
+    grid-column: 1 / 3;
+    border-radius: 20px;
+    border: 1px white solid;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo{
+
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.instrucciones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    width: 700px;
+    align-self: center;
+}
+a{
+    font-weight: 600;
+}
+a:visited{
+    color: rgb(39, 188, 214);
+}
+a:hover{
+    color: rgb(16, 179, 243);
+    font-size: 22px;
+}
+a:focus{
+    text-decoration: line-through;
+}
+                                /* fin del conteiner 3 */
+    /* INICIO DEL CONTEINER4 */
+
+
+
+.conteiner4{
+    border-radius: 20px;
+    border-radius: 20px;
+    grid-column: 3 /4;
+    grid-row: 3 / 4;
+    border: 1px white solid;
+    padding: 20px;
+}
+.sigueme{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+.sigueme p{
+    grid-column: 1 / 3;
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+.iconos{
+    background-color: transparent;
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 25px;
+}
+
+.fb{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.gh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.rdt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.ig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+}
+a:focus{
+    color: ;
+}
+.fa-brands:hover{
+    color: rgb(46, 156, 247);
+}
+
+.iconos p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.conteiner5{
+    border-radius: 20px;
+    grid-column: 1 / 4;
+    border: 1px white solid
+}
+.grid-conteiner div{
+    
+    
+}
