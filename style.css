@@ -69,12 +69,14 @@ ul li:hover{
 .conteiner3{
     grid-column: 1 / 3;
     border-radius: 20px;
-    border: 1px white solid;
+    border: 1px transparent solid;
     box-sizing: border-box;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background: linear-gradient(-210deg, rgb(0, 6, 12), rgb(7, 47, 155));
+    box-shadow: white 0px 0px 5px;
 }
 .titulo{
 
@@ -91,11 +93,14 @@ ul li:hover{
     gap: 20px;
 }
 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
     font-size: 20px;
+    font-weight: 500;
 }
 img{
     width: 700px;
     align-self: center;
+    border-radius: 40px;
 }
 a{
     font-weight: 600;
@@ -120,7 +125,6 @@ a:focus{
     border-radius: 20px;
     grid-column: 3 /4;
     grid-row: 3 / 4;
-    border: 1px white solid;
     padding: 20px;
 }
 .sigueme{
@@ -143,36 +147,57 @@ a:focus{
     grid-template-rows: auto auto;
     gap: 25px;
 }
+.iconos div:hover{
+    border-color: rgb(12, 174, 214);
 
+}
 .fb{
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px whitesmoke solid;
+    border-radius:10px;
 }
 .gh{
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 5px;
+    border: 1px whitesmoke solid;
+    border-radius:10px;
 }
 .rdt{
+    background-color: transparent;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 5px;
+    border: 1px whitesmoke solid;
+    border-radius:10px;
 }
 .ig{
+    background-color: transparent;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding: 5px;
+    border: 1px whitesmoke solid;
+    border-radius:10px;
 }
 .fa-brands{
     font-size: 50px;
 }
 a:focus{
-    color: ;
+    color: rgb(1, 156, 245);
 }
 .fa-brands:hover{
     color: rgb(46, 156, 247);
@@ -181,23 +206,73 @@ a:focus{
 .iconos p{
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
+                        /* fin del centeiner 4 */
+    /* INICIO DEL CONTEINER 5 */
 
 .conteiner5{
     border-radius: 20px;
     grid-column: 1 / 4;
-    border: 1px white solid
+    border: 1px white solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto auto;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
-.grid-conteiner div{
-    
-    
+.name{
+    grid-column: 1 / 4;
+    text-align: center;
+    font-weight: 700;
+
+}
+.year{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    grid-column: 2 / 3;
+
+}
+.number{
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(6, 209, 245);
+
+}
+.email{
+    grid-column: 2 / 3;
+}
+legend{
+    padding: 10px;
+    margin: 30px;
+    border-radius: 30px;
+    border: rgb(6, 197, 245) 1px solid;
+}
+legend:hover{
+    border-color: rgba(99, 236, 7, 0.952);
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    align-items: center;
+    border-color: rgb(10, 199, 247);
+}
+.btn{
+   text-decoration: none;
+   padding: 15px;
+   border-radius: 10px;
+   background: linear-gradient(250deg, rgb(0, 173, 216), rgb(26, 102, 163)); 
+}  
+
+.btn:hover{
+    font-size: 20px;
+    color: aliceblue;
+    background: linear-gradient(250deg,rgb(26, 102, 163) ,rgb(0, 173, 216) ); 
+}
+.conteiner5 div{
+    font-size: 20px;
+    border-bottom: 1px rgb(175, 175, 175) solid;
 }
